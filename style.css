@@ -604,3 +604,24 @@ button, a, input, select, textarea {
     transition: none;
   }
 }
+
+
+/* Embedded appointment form */
+
+.contact-form iframe {
+  display: block;
+  width: 100%;
+  min-height: 850px;
+  border: none;
+  background: white;
+}
+
+@media (max-width: 700px) {
+  .contact-form {
+    padding: 15px;
+  }
+
+  .contact-form iframe {
+    min-height: 1000px;
+  }
+}

@@ -608,7 +608,7 @@ button, a, input, select, textarea {
 
 /* Embedded appointment form */
 
-.contact-form iframe {
+/* .contact-form iframe {
   display: block;
   width: 100%;
   min-height: 850px;
@@ -624,4 +624,45 @@ button, a, input, select, textarea {
   .contact-form iframe {
     min-height: 1000px;
   }
+} */
+
+/* Phone contact section */
+
+.phone-contact {
+  margin-top: 70px;
+  padding-top: 35px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+/* Phone contact buttons */
+
+.phone-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.phone-buttons .btn {
+  flex: 1;
+  font-size: 1.15rem;
+  padding: 17px 20px;
+}
+
+@media (max-width: 700px) {
+  .phone-buttons {
+    flex-direction: column;
+  }
+
+  .business-number {
+    font-size: 1.8rem;
+  }
+}
+
+.business-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #008b8b;
+  text-align: center;
+  margin: 20px 0 25px;
+  letter-spacing: 1px;
 }

@@ -1,15 +1,262 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>🦆 My Tech Companion</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My Tech Companion offers friendly, patient, in-home technology help, troubleshooting, and personalized lessons.">
+  <title>My Tech Companion | Technology Made Simple</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">
+        <span class="logo-mark">MTC</span>
+        <span>My Tech Companion</span>
+      </a>
+
+      <button class="menu-toggle" type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        aria-controls="nav-links">
+        ☰
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <span class="eyebrow">Friendly, Local Technology Assistance</span>
+        <h1>Technology should make life easier. Not harder.</h1>
+        <p>
+          Patient, personalized help with everyday technology.
+          From smartphones and computers to Wi-Fi and smart TVs,
+          My Tech Companion makes technology a little less frustrating.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Request an Appointment</a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
+        </div>
+        <p class="hero-note">Free 15-minute phone consultations available!</p>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">How We Can Help</span>
+          <h2>Technology help without the headaches.</h2>
+          <p>No complicated explanations. No judgment. Just friendly help at your pace.</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="service-card">
+            <span class="service-icon">📱</span>
+            <h3>Phones & Tablets</h3>
+            <p>Device setup, apps, settings, updates, and everyday troubleshooting.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">💻</span>
+            <h3>Computers & Laptops</h3>
+            <p>Help navigating your computer, solving common problems, and learning new skills.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">📶</span>
+            <h3>Wi-Fi & Internet</h3>
+            <p>Connection problems, basic network troubleshooting, and getting devices online.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">📺</span>
+            <h3>Smart TVs & Streaming</h3>
+            <p>Streaming apps, Roku, smart TV setup, and learning how to watch your favorites.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">✉️</span>
+            <h3>Email & Online Accounts</h3>
+            <p>Getting started with email, navigating accounts, and understanding online safety.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">🖨️</span>
+            <h3>Printers & Devices</h3>
+            <p>Setting up printers, connecting accessories, and troubleshooting common issues.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">🎓</span>
+            <h3>Personal Technology Lessons</h3>
+            <p>One-on-one instruction that moves at your pace, with time for every question.</p>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon">🤝</span>
+            <h3>General Tech Assistance</h3>
+            <p>Not sure what you need? Let's talk about it and find a way forward.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Simple, Upfront Pricing</span>
+          <h2>Helpful service. No surprises.</h2>
+          <p>Start with a free conversation and see how My Tech Companion can help.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Phone Consultation</h3>
+            <div class="price">FREE</div>
+            <p>Up to 15 minutes</p>
+            <p>Discuss your technology needs and see if MTC is the right fit.</p>
+          </article>
+
+          <article class="price-card featured">
+            <span class="price-badge">Introductory Offer</span>
+            <h3>In-Home Tech Help</h3>
+            <div class="price">$45</div>
+            <p>Up to 1 hour</p>
+            <p>Friendly, personalized assistance in the comfort of your home.</p>
+            <a href="#contact" class="btn btn-primary">Get Started</a>
+          </article>
+
+          <article class="price-card">
+            <h3>Additional Time</h3>
+            <div class="price">$20</div>
+            <p>Per additional 30 minutes</p>
+            <p>Extra time when your questions or technology problems need more attention.</p>
+          </article>
+        </div>
+
+        <p class="pricing-note">
+          Private technology lessons: $45/hour. Group classes starting at $15/person.
+          Additional travel charges may apply outside the standard service area.
+          Introductory pricing is subject to change.
+        </p>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-layout">
+        <div class="about-visual">
+          <span class="about-initials">MTC</span>
+          <p>Helping people feel confident with technology.</p>
+        </div>
+
+        <div class="about-copy">
+          <span class="eyebrow">A More Personal Approach</span>
+          <h2>Real help from a real person.</h2>
+          <p>
+            Technology changes quickly, and keeping up isn't always easy.
+            My Tech Companion was created to make everyday technology
+            more approachable, especially for people who appreciate
+            a little extra time, patience, and personal attention.
+          </p>
+          <p>
+            Whether you need a problem solved or simply want someone
+            to show you how something works, you'll receive friendly
+            assistance without feeling rushed or overwhelmed.
+          </p>
+          <a href="#contact" class="text-link">Let's get connected →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div>
+          <span class="eyebrow">Let's Talk</span>
+          <h2>Need a little help with technology?</h2>
+          <p>
+            Tell us what you need help with. We'll start with a
+            friendly conversation and figure out the next step.
+          </p>
+          <div class="contact-highlight">
+            <strong>Free 15-minute phone consultation</strong>
+            <p>Questions are always welcome!</p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="appointment-form">
+          <h3>Request an Appointment</h3>
+
+          <label for="customer-name">Your Name</label>
+          <input id="customer-name" name="name" type="text"
+            autocomplete="name" required>
+
+          <label for="customer-email">Email Address</label>
+          <input id="customer-email" name="email" type="email"
+            autocomplete="email" required>
+
+          <label for="customer-phone">Phone Number</label>
+          <input id="customer-phone" name="phone" type="tel"
+            autocomplete="tel">
+
+          <label for="customer-service">What do you need help with?</label>
+          <select id="customer-service" name="service" required>
+            <option value="">Select a service</option>
+            <option>Phones & Tablets</option>
+            <option>Computers & Laptops</option>
+            <option>Wi-Fi & Internet</option>
+            <option>Smart TVs & Streaming</option>
+            <option>Email & Online Accounts</option>
+            <option>Printers & Devices</option>
+            <option>Technology Lessons</option>
+            <option>Other Tech Help</option>
+          </select>
+
+          <label for="customer-message">Tell us a little more</label>
+          <textarea id="customer-message" name="message" rows="4"
+            placeholder="What can we help you with?"></textarea>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            Prepare Appointment Request
+          </button>
+
+          <p class="form-note">
+            This opens your email app with a prepared request.
+            Please send the email to complete your inquiry.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <strong>My Tech Companion</strong>
+        <p>Friendly, Patient & Personalized Tech Assistance</p>
+      </div>
+      <div class="footer-links">
+        <a href="#home">Back to Top</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="copyright">
+        &copy; <span id="year">2026</span> My Tech Companion.
+        All rights reserved.
+      </p>
+    </div>
+  </footer>
+
 </body>
-
-
-<script src="script.js"></script>
 </html>

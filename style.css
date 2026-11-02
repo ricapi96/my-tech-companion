@@ -666,3 +666,48 @@ button, a, input, select, textarea {
   margin: 20px 0 25px;
   letter-spacing: 1px;
 }
+
+/* Senior-friendly font sizes */
+
+body {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* Regular paragraph text */
+p, li {
+  font-size: 1.3rem;
+  line-height: 1.75;
+}
+
+/* Section headings */
+.section h2 {
+  font-size: clamp(2rem, 4vw, 2.7rem);
+}
+
+/* Smaller headings */
+h3 {
+  font-size: 1.4rem;
+}
+
+/* Navigation links */
+.nav-links a {
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn {
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+/* Small notes and descriptions */
+.form-note,
+.pricing-note {
+  font-size: 1rem;
+}
+
+/* Keep phone number prominent */
+.business-number {
+  font-size: 2.5rem;
+}
